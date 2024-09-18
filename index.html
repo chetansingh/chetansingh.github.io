@@ -7,4 +7,9 @@
 <h1>My First Heading</h1>
 <p>My first paragraph with canonical.</p>
 </body>
+  <script>
+    window.addEventListener("load", (event) => {
+      document.querySelector("link[rel='canonical']").remove();
+    });
+  </script>
 </html>
